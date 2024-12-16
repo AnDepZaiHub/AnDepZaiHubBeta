@@ -19,3 +19,8 @@ function gay()
 end        
 end
 gay()    
+spawn(function()
+    while task.wait() do
+    setfpscap(60)
+    end
+end)
