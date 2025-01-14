@@ -1,6 +1,8 @@
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death),function() end)
 hookfunction(require(game:GetService("ReplicatedStorage"):WaitForChild("GuideModule")).ChangeDisplayedNPC,
 function()end)
+hookfunction(error, function()end)
+hookfunction(warn, function()end)
 
 function gay()
     local lighting = game:GetService("Lighting")
