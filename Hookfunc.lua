@@ -4,8 +4,8 @@ function()end)
 hookfunction(error, function()end)
 hookfunction(warn, function()end)
 local Rock = workspace:FindFirstChild("Rocks")
-if target then
-    target:Destroy()
+if Rock then
+    Rock:Destroy()
 end
 function gay()
     local lighting = game:GetService("Lighting")
